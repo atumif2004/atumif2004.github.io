@@ -1,0 +1,94 @@
+@media (max-width: 1200px) {
+    .promo__wrapper {
+        align-items: center;
+    }
+}
+
+@media (max-width: 795px) {
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 25px;
+        }
+        &__item {
+            margin-top: 25px;
+            max-width: 460px;
+        }
+        &__subtitle {
+            font-size: 20px;
+            margin-top: 18px;
+        }
+    }
+    
+}
+
+@media (max-width: 620px) {
+    .header__official {
+        display: none;
+    }
+
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 25px;
+        }
+        &__item {
+            margin-top: 25px;
+            max-width: 250px;
+        }
+        &__subtitle {
+            font-size: 20px;
+            margin-top: 18px;
+        }
+    }
+
+    .promo {
+        &__header {
+            font-size: 34px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+    
+    
+}
+
+@media (max-width: 425px) {
+    .header {
+        flex-direction: column;
+        &__contacts {
+            margin-top: 15px;
+        }
+        button {
+            margin-top: 15px;
+        }
+    }
+
+    .promo {
+        &__header {
+            font-size: 22px;
+        }
+        &__subheader {
+            font-size: 15px;
+        }
+        &__icons {
+            margin-top: 65px;
+            width: 325px;
+        }
+        
+    }
+    .button {
+        &_main {
+            width: 240px;
+        }
+
+    }
+    .advantages {
+        h2 {
+            font-size: 19px;
+        }
+    } 
+}
