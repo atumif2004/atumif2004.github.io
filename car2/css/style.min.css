@@ -31,8 +31,8 @@
 
 .subheader img {
     display: block;
-    width: 80px;
-    height: 80px
+    width: 100%;
+    margin-top: 10px
 }
 
 .subheader_menu ul {
@@ -287,6 +287,7 @@
     transition: .5s all
 }
 
+
 .overlay {
     display: none;
     position: fixed;
@@ -379,7 +380,6 @@
     margin-top: 25px
 }
 
-
 @media (max-width:1205px) {
     .subheader_contact {
         flex-direction: column;
@@ -398,15 +398,8 @@
     .catalog-item {
         width: 250px
     }
-
-    .modal__subtitle {
-        font-size: 13px;
-    }
-
-    .feed-form input {
-        width: 270px;
-    }
 }
+
 
 @media (max-width:1005px) {
     .catalog__content {
@@ -468,7 +461,8 @@
     }
 
     .subheader img {
-        margin: 0 auto
+        margin: 0 auto;
+        width: 50%
     }
 
     .subheader_contact {
@@ -535,6 +529,15 @@
         width: 300px;
         padding: 10px 15px 10px 15px
     }
+
+    .modal__subtitle {
+        font-size: 13px;
+    }
+
+    .feed-form input {
+        width: 270px;
+    }
+
 }
 
 @media (max-width:345px) {
