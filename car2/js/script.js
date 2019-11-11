@@ -47,6 +47,30 @@ $('form').submit(function(e) {
         return false;
     });
     
+    $('article').readmore({
+        afterToggle: function(trigger, element, more) {
+        if(! more) { // кнопка "Свернуть текст" была нажата
+        $('html, body').animate({
+        scrollTop: element.offset().top
+        },{
+        duration: 100
+        });
+        }
+        }
+       });
+
+       $('article').readmore({
+        afterToggle: function(trigger, element, more) {
+        if(! more) { // кнопка "Свернуть текст" была нажата
+        $('html, body').animate({
+        scrollTop: element.offset().top
+        },{
+        duration: 100
+        });
+        }
+        }
+       });
+
 
 
 });
