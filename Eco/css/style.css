@@ -522,7 +522,7 @@ ul.eco_top_social li:last-child {
 .eco_start_wrapper {
     width: 100%;
     float: left;
-    background-image: url(http://via.placeholder.com/1920x800);
+    background-image: url(../images/poloca.jpg);
     background-size: cover;
     padding: 100px 0px;
     text-align: center;
@@ -563,7 +563,7 @@ ul.eco_top_social li:last-child {
 .eco_counter_wrapper {
     width: 100%;
     float: left;
-    background-image: url(http://via.placeholder.com/1920x800);
+    background-image: url(../images/poloca.jpg);
     background-size: cover;
     padding: 100px 0px;
     background-attachment: fixed;
@@ -738,7 +738,7 @@ ul.eco_top_social li:last-child {
     float: left;
     padding: 80px 0px 170px;
     font-family: 'Roboto Slab', serif;
-    background-image: url(http://via.placeholder.com/1920x1080);
+    background-image: url(../images/otzivi.jpg);
     background-size: cover;
     background-attachment: fixed;
 	position:relative;
@@ -970,7 +970,7 @@ ul.eco_top_social li:last-child {
 .eco_video_wrapper {
     width: 100%;
     float: left;
-    background-image: url(http://via.placeholder.com/1920x1080);
+    background-image: url(../images/video.jpg);
     background-size: cover;
     padding: 80px 0px;
     font-family: 'Roboto Slab', serif;
@@ -1257,7 +1257,7 @@ ul.team_social li a:hover {
     width: 100%;
     float: left;
     padding: 80px 0px;
-    background-image: url(http://via.placeholder.com/1920x1080/fafafa);
+    background-image: url(../images/poloca.jpg);
     background-size: cover;
     font-family: 'Roboto Slab', serif;
 	position:relative;
