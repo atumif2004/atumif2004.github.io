@@ -568,7 +568,8 @@ ul.eco_top_social li:last-child {
     padding: 100px 0px;
     background-attachment: fixed;
 	position:relative;
-	z-index:1;
+    z-index:1;
+    margin-top: 30px;
 }
 .eco_counter_wrapper:after{
 	position:absolute;
@@ -1628,6 +1629,99 @@ ul.tag_clouds li a:hover {
 .eco_btn:focus {
     outline: none;
 }
+
+
+.product-wrap {
+    width: 300px;
+    margin: 0 auto;
+    background: white;
+    padding: 10px 10px 20px;
+    text-align: center;
+    font-size: 14px; 
+    font-family: Lora;
+    margin-top: 20px;
+    border: 2px solid #7abf18;
+    text-transform: uppercase;
+  }
+  .product-item {
+    position: relative;
+    overflow: hidden;
+  }
+  .product-wrap img {
+    display: block;
+    width: 100%;
+  }
+  .product-buttons {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0;
+    transition: .3s ease-in-out;
+  }
+  .button { 
+    text-decoration: none;
+    color: #7abf18;
+    font-size: 12px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    border: 2px solid #7abf18;
+    transform: translate(-50%, -50%) scale(0);
+    transition: .3s ease-in-out;
+  }
+
+  .button:hover { 
+     color: #7abf18
+  }
+  .button:before {
+    content: "\f07a";
+    font-family: FontAwesome;
+    margin-right: 10px;
+  }
+  .product-item:hover .product-buttons {opacity: 1;}
+  .product-item:hover .button {transform: translate(-50%, -50%) scale(1);}
+  .button:hover {background: black;}
+  .product-title {color: #5e5e5e;}
+  .product-title a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 600;
+    margin: 15px 0 15px;
+    padding-bottom: 18px;
+    display: block;
+    position: relative;
+    transition: .3s ease-in-out;
+  }
+  .product-title a:after{    
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: #2e2e2e;
+    left: 50%;
+    margin-left: -20px;
+    bottom: 0;
+    transition: .3s ease-in-out;
+    
+  }
+  .product-title a:hover {color: #c0a97a;}
+  .product-title:hover a:after {background: #c0a97a;}
+  .product-price {
+    font-size: 14px;
+    color: #4b4e47;
+    font-weight: 400;
+    display: block;
+    line-height: 11px;
+   
+  }
+
+
 /*----Media css start----*/
 
 @media(max-width:1600px) {
