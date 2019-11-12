@@ -233,7 +233,11 @@ ul.eco_top_social li:last-child {
 .eco_logo {
     width: 100%;
     display: inline-block;
-    margin-top: 11px;
+    margin-top: 2px;
+}
+
+.sl3mt {
+    margin-top: 20px;
 }
 .eco_top_info_box {
     width: 100%;
