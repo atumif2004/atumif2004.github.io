@@ -1,0 +1,150 @@
+﻿html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, hr, dl, dt, dd, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;border:0px none;outline:0;font-style:inherit;font-family:inherit;}:focus{outline:0}area{cursor:pointer}table{border-collapse:separate;border-spacing:0}caption, th, td{font-weight:normal}blockquote:before, blockquote:after, q:before, q:after{}blockquote, q{}
+
+hr{border:solid #e5e5e5; border-width:1px 0 0 0; height:1px;}
+body{background:#f3e7aa url(../img/bg.jpg) 0 0 repeat; color:#2c2315; font:14px/21px Arial, Helvetica, sans-serif}
+p{margin-bottom:21px}
+a{font:14px/21px Arial, Helvetica, sans-serif; color:#704d14}
+a.sthref{color:#2c2315; font-style:italic}
+a:hover{color:#336600}
+h1{font:41px/51px "Times New Roman", Times, serif; width:100%; position:relative;} 
+h1 img{position:absolute; left:0; top:0}
+h1 span{position:absolute; width:100%; left:0; top:0; text-align:center}
+h1 span img{position:relative}
+.centerH{text-align:center}
+h2{font:37px/40px "Times New Roman", Times, serif; width:100%; position:relative; margin-bottom:5px} 
+h2 img{position:absolute; left:0; top:0}
+h2 span{position:absolute; width:100%; left:0; top:0; text-align:center}
+h2 span img{position:relative}
+h3{font:14px Arial, Helvetica, sans-serif;}
+.line{height:6px; background:url(../img/linebg.jpg) 50% -117px no-repeat; position:relative; overflow:hidden; margin:0 -35px 37px -35px}
+.plass{line-height:20px; margin-bottom:9px; }
+.plass img{float:left; top:5px; position:relative; margin-right:3px; vertical-align:top}
+.plass a{line-height:20px; font-size:16px}
+.price{}
+.price{width:100%; position:relative; padding-top:43px;display:none;}
+.price table{border-collapse:collapse; margin-bottom:50px}
+.price td,.price th{line-height:21px; border-bottom:1px solid #b9c077; border-top:1px solid #b9c077; padding:13px 0 16px 0}
+.price td{padding-right:40px}
+.price th{width:140px; padding:0 15px}
+
+.spezPredl{margin-right:-56px; font-style:italic; margin-top:-5px; position:relative; margin-bottom:35px}
+.spezPredl a{font-style:normal}
+.spezPredl .element{float:left; width:250px; text-align:center; margin-right:35px}
+.spezPredl .element img.bimg{display:block; border:1px solid #704d14; margin-bottom:5px}
+
+.clear{clear:both;}
+.left{float:left}
+.right{float:right}
+#container{position:relative; width:888px; margin:0 auto; padding:0 56px}
+#top{height:98px; background:url(../img/linebg.jpg) 0 0 no-repeat; width:100%; padding:11px 0 0 0; text-align:center}
+
+#top img{color:#336600; font-size:18px}
+
+#content{padding:0 35px 26px 35px; position:relative;}
+#content .pikNavi{position:relative; margin-left:-34px; padding-top:29px}
+#navi{height:42px; width:100%; background-color:#704d14}
+#navi ul{margin:0px 0px 0px 131px; padding:10px 0px 0px 0px; border:0px none; outline:0; list-style:none;}
+#navi li{margin:0px; padding:0px 40px 6px 21px; border:0px none; outline:0; list-style:none; float:left; color:#f3e7aa; font:16px/16px Arial, Helvetica, sans-serif; background:url(../img/navi.gif) 0 1px no-repeat;}
+#navi li a{color:#FFFFFF; font:16px/16px Arial, Helvetica, sans-serif;}
+#navi li a:hover{color:#f3e7aa}
+.navline{width:100%; position:relative; height:3px; overflow:hidden; background:url(../img/linebg.jpg) 0 -109px no-repeat}
+#IndexBanner{height:528px; background:url(../img/main_pic.jpg) no-repeat; width:100%}
+.topEndLine{height:8px; background:#704d14 url(../img/linebg.jpg) 0 -109px no-repeat; overflow:hidden; position:relative; overflow:hidden; margin-bottom:14px}
+.pikNavi{padding-top:41px}
+.pikNavi td{width:136px; vertical-align:top; width:136px; padding:0 1px 51px 34px; text-align:center; color:#336600;font-size:14px; line-height:19px}
+.pikNavi td a{font-size:14px; line-height:19px}
+.pikNavi td img{width:136px; height:104px; display:block; margin-bottom:6px}
+
+#IndexContent{padding:0 35px 26px 35px; z-index:1;}
+.NewsIndex{width:101%; position:relative; overflow:hidden; margin-right:-1%; padding-top:14px; margin-bottom:37px}
+.NewsIndex .element{float:left; width:255px; padding-right:30px}
+.NewsIndexIn{width:110%}
+.NewsIndex .date{font-style:italic}
+.NewsIndex .arhiv{padding-left:339px; padding-top:28px; line-height:19px}
+.NewsIndex .arhiv img{float:left; margin-right:4px; top:1px; position:relative}
+.NewsIndex .arhiv a{line-height:19px; font-size:16px;}
+
+.win{position:absolute; left:0; top:-40px; z-index:100; display: none;}
+.win table{position:relative; overflow:hidden}
+.win .lt div div,.win .rt div div,.win .lb div div,.win .rb div div{width:28px; height:28px; background-image:url(../img/glosA.png); position:absolute;}
+.win .lt,.win .lt div,.win .rt,.win .rt div{width:14px; height:9px;overflow:hidden; position:relative}
+.win .lb,.win .lb div,.win .rb,.win .rb div{width:14px; height:19px;overflow:hidden; position:relative}
+.win .lt div div{left:-14px; top:-19px}
+.win .rt div div{left:0; top:-19px}
+.win .lb div div{left:-14px; top:0}
+.win .rb div div{left:0; top:0}
+.win .tt div{height:9px; position:relative; overflow:hidden; background-image:url(../img/glosT.png)}
+.win .bb div{height:19px; position:relative; overflow:hidden;}
+.win .bb div div{height:29px; position:relative; background-image:url(../img/glosT.png); top:-10px}
+.win .ll{background-image:url(../img/glosL.png)}
+.win .rr{background-image:url(../img/glosR.png)}
+.win .glosText{background:#704d14 url(../img/glosbg.png) 0 0 repeat; color:#f9f3d4; line-height:19px; padding:8px 15px 9px 15px; font-size:12px}
+.win .fuction{ border-top:1px solid #987c41; padding-top:19px; margin-top:16px}
+.win .fuction a{float:left; color:#FFFFFF; line-height:12px}
+.win .fuction a:hover{color:#f3e7aa}
+.win .fuction a span{float:left; width:14px; height:15px; background-image:url(../img/glosIco.png); overflow:hidden; margin-right:3px; margin-top:1px;}
+*html .win .fuction a span{margin-right:0}
+.win .fuction a.close{margin-right:12px}
+.win .fuction a.next span{background-position:-14px -0px}
+.winSpan{position:relative;}
+
+#topBanner{height:144px; width:100%; background:url(../img/in_pic.jpg) no-repeat;}
+.LineStat{font-size:12px; line-height:19px; text-align:center; margin-bottom:35px}
+.LineStat a{font-size:12px; line-height:19px}
+.LineStat span{color:#336600}
+
+.pageCont{text-align:center; padding-bottom:48px; padding-top:8px}
+.pageCont .bigPhone{font:39px/41px "Times New Roman", Times, serif; margin-bottom:48px}
+.pageCont .map{text-align:center; margin-bottom:19px}
+.pageCont .map .YMaps {margin-left:auto; margin-right:auto; border:1px solid #704d14}
+.pageCont .text{font-size:12px; line-height:19px;}
+
+
+.portfPick{margin-bottom:47px; margin-top:-1px}
+.portfPick .selPik img,.bigPik img{border:1px solid #704d14}
+.selPik{width:100%; position:relative; overflow:hidden;}
+.selPik img{float:left; margin:21px 22px 0 0}
+.selPikIn{width:105%}
+
+.leftPrev,.rightPrev{width:100%; padding:0}
+.leftPrev td, .rightPrev td{padding:0px 0 55px 0; border:none}
+.leftPrev img{float:left;border:1px solid #704d14; margin-right:35px}
+.rightPrev img{float:left;border:1px solid #704d14; margin-left:35px}
+.PrevBlock{margin:0 32px 0 35px}
+
+.ColumBlock{width:100%; margin-bottom:14px}
+.LeftBlock{float:left; width:530px}
+.RightBlock{float:right; width:250px; position:relative;}
+
+#footer{width:100%; position:relative; text-align:center; padding-bottom:44px}
+#footer .line{margin-bottom:47px}
+#footer .oridis{position:absolute; left:35px; text-align:left; line-height:17px; top:45px; padding-bottom:44px}
+#footer .partners{position:absolute; left:35px; text-align:left; line-height:17px; top:10px; padding-bottom:44px}
+#footer .oridis a{line-height:17px}
+#footer .oridis img{margin-top:7px}
+#footer .copir{padding-left:4px}
+#footer .copir .date{line-height:16px; font-size:16px; margin-bottom:4px}
+.newsBlock .element{margin-bottom:8px}
+.newsBlock .date{font-style:italic}
+.LinePik{width:105%; margin-right:-5%; margin-bottom:44px}
+.LinePik img{float:left; border:1px solid #704d14; margin:8px 21px 12px 0}
+.LinePik .link{line-height:16px; padding:5px 0 0 0; width:100%}
+.LinePik .link a{line-height:16px; font-size:16px}
+.LinePik .link img{border:none; margin:2px 3px 0 0;}
+.LinePik .linkCenter{text-align:center; line-height:22px; padding-top:35px; margin-bottom:-19px; position:relative; width:92%}
+.LinePik .linkCenter img{float:none; margin:auto; vertical-align:top; position:relative; top:3px}
+.LinePik .linkCenter a{font:21px/22px "Times New Roman", Times, serif}
+
+.BigImg{text-align:center; margin-top:9px}
+.BigImg .line{margin-top:50px; margin-bottom:44px}
+.BigImg a{font:21px "Times New Roman", Times, serif}
+.BigImg img{border:1px solid #704d14; display:block; margin:0 auto 13px auto}
+
+
+*html .win .lt div div,*html .win .rt div div,*html .win .lb div div,*html .win .rb div div,*html .win .tt div,*html .win .bb div div,*html .win .ll,*html .win .rr{ behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",this.src = "img/blank.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",this.runtimeStyle.backgroundImage = "none")),this.pngSet=true));
+}
+.Bla {height:41px;}
+.potfolioLine {margin-top:9px; margin-bottom:44px;}
+.portfolioLinkCenter {padding-top:14px;}
+.portfolioLinePik {margin-bottom:22px;}
+p.glossaryDetails img {float:left; margin:0 10px 10px 0}
