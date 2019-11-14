@@ -2098,6 +2098,10 @@ ul.tag_clouds li a:hover {
         text-align: center;
     }
 }
+
+.img-svg {
+    fill:#7abf18;
+}
 @media(max-width:550px) {
     .eco_video_img img {
         display: inline-block;
