@@ -1724,6 +1724,7 @@ ul.tag_clouds li a:hover {
     display: inline-block;
     padding: 2px 20px;
     background: #7abf18;
+    border: none;
     color: white;
     text-transform: uppercase;
     font-size: 12px;
@@ -1895,6 +1896,17 @@ input[name="email"] {
         bottom: 0;
     }
 }
+
+@media(max-width:1369px) {
+    .feed-form input {
+        height: 40px;
+        width: 180px;
+    }
+    input[name="email"] {
+        width: 100%;
+    }
+
+}
 @media(max-width:1300px) {
     .eco_about_img {
         width: 43%;
@@ -2014,6 +2026,26 @@ input[name="email"] {
     }
     .eco_contact_form {
         margin-left: 0;
+    }
+
+}
+
+@media(max-width:890px) {
+    
+    .feed-form input {
+        width: 125px;
+        font-size: 11px;
+    }
+    input[name="email"] {
+        width: 100%;
+    }
+
+    .form-text {
+        height: 80px;
+        font-size: 11px;
+    }
+    .button-modal {
+        height: 35px;
     }
 }
 @media(max-width:767px) {
@@ -2246,6 +2278,23 @@ input[name="email"] {
     .eco_ques_form {
         text-align: center;
     }
+
+    .feed-form input {
+        width: 100%;
+   
+    }
+
+     
+
+    .modal__subtitle {
+   
+        font-size: 14px;
+    }
+
+    .modal__descr {
+ 
+        font-size: 12px;
+    }
 }
 
 .img-svg {
@@ -2259,6 +2308,10 @@ input[name="email"] {
     .close_btn {
         left: 140px;
     }
+
+    .eco_logo img {
+        width: 70%;
+    }
 }
 @media(max-width:480px) {
     .eco_ques_form {
@@ -2269,6 +2322,9 @@ input[name="email"] {
     }
     .eco_start_wrapper h1 {
         font-size: 40px;
+    }
+    .menu_btn {
+        top: -35px;
     }
 }
 @media(max-width:320px) {
