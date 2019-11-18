@@ -405,7 +405,7 @@ ul.eco_top_social li:last-child {
     margin-top: 23px;
     position: absolute;
     right: 15%;
-    bottom: 0;
+    
 }
 .eco_about_data {
     width: 100%;
@@ -793,6 +793,7 @@ ul.eco_top_social li:last-child {
     margin: 20px 0;
 }
 .eco_feedback_box p {
+    min-height: 440px;
     color: #353535;
     font-size: 15px;
     line-height: 22px;
@@ -827,6 +828,7 @@ ul.eco_top_social li:last-child {
 .owl-carousel .owl-item img {
     width: auto !important;
     display: inline-block;
+    display: none;
 }
 .eco_feedback_slider .owl-controls {
     width: 100%;
@@ -1893,7 +1895,7 @@ input[name="email"] {
     .eco_about_img {
         width: 38%;
         right: 9%;
-        bottom: 0;
+        
     }
 }
 
@@ -1911,7 +1913,7 @@ input[name="email"] {
     .eco_about_img {
         width: 43%;
         right: 4%;
-        bottom: 0;
+       
     }
 }
 @media(max-width:1200px) {
@@ -1936,11 +1938,15 @@ input[name="email"] {
         padding: 10px 14px;
         font-size: 15px;
     }
+    
+
+    .eco_about_data {
+        width: 200%;
+    }
+
     .eco_about_img {
-        width: 59%;
-        right: 0;
-        bottom: 0;
-        z-index: -1;
+        display: none;
+        
     }
 }
 @media(min-width:768px) and (max-width:991px) {

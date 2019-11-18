@@ -366,6 +366,7 @@ ul.eco_top_social li:last-child {
     width: 170px;
     display: inline-block;
     padding: 10px 30px;
+    
     line-height: 27px;
     border-radius: 22px;
     border: 1px solid transparent;
@@ -376,6 +377,7 @@ ul.eco_top_social li:last-child {
     -webkit-transition: all 0.25s ease-in-out;
     -o-transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
+    
 }
 .eco_btn:hover {
     background-color: transparent;
