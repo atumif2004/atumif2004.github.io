@@ -1939,6 +1939,9 @@ input[name="email"] {
         font-size: 15px;
     }
     
+    .eco_feedback_box p {
+        min-height: 521px;
+    }
 
     .eco_about_data {
         width: 200%;
@@ -1962,6 +1965,11 @@ input[name="email"] {
     }
     .eco_top_box.eco_fixed .eco_banner_box.ed_box {
         padding: 5px 45px 18px 65px;
+    }
+
+    .eco_feedback_box p {
+        min-height: 568px;
+        font-size: 12px;
     }
     .eco_logo {
         text-align: center;
@@ -2060,6 +2068,10 @@ input[name="email"] {
     }
     ul.eco_top_social {
         margin-bottom: 10px;
+    }
+
+    .eco_feedback_box p {
+        min-height: 280px;
     }
     .eco_top_info {
         float: none;
@@ -2338,6 +2350,11 @@ input[name="email"] {
         padding: 29px 30px 15px 30px;
         border-radius: 60px;
         margin-top: 50px;
+    }
+
+    .eco_feedback_box p {
+        min-height: 630px;
+        font-size: 10px;
     }
     .navbar-toggle {
         margin-top: 0;
