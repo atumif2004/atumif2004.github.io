@@ -1,0 +1,442 @@
+
+	
+.container 
+	margin-right: auto
+	margin-left: auto
+	width: 1080px
+	padding-left: 15px
+	padding-right: 15px
+
+.pageup 
+	position: fixed
+	bottom: 40px
+	right: 40px
+	width: 40px
+	height: 40px
+	img 
+		width: 100%
+
+ 
+	 
+ 
+.subheader
+	display: flex
+	margin-top: 15px
+	img 
+		display: block
+		width: 100%
+		margin-top: 10px
+	 	
+	&_menu
+		ul 
+			display: flex
+			justify-content: space-between
+			align-items: center
+			li 
+				list-style: none
+				line-height: 80px		
+		a 
+			text-decoration: none
+			color: $main-color	
+			transition: 0.5s all	
+			&:hover
+				color: $second-color
+			
+	&_contact
+		display: flex
+		justify-content: space-between
+	
+		
+		&_btn
+			width: 150px
+			height: 30px
+			border: none
+			border-radius: 30px
+			color: #fff
+			background-color: $second-color
+			text-transform: uppercase
+			font-size: 12px
+			font-weight: 700
+			margin-top: 25px
+			transition: 0.5s all
+			&:hover
+				color: $second-color
+				background-color: #ffffff
+				border: 1px solid $second-color
+		&_phone
+			text-decoration: none
+			color: $second-color
+			line-height: 80px
+			&:hover
+				text-decoration: none
+				color: $second-color
+		i 
+			color: $second-color
+
+.slider
+	h1 
+		color: $main-color
+		font-size: 25px
+		font-weight: 700
+	&_title
+		text-align: center
+		margin-bottom: 20px
+		
+
+
+.articles
+	margin-top: 80px
+	.article
+  
+		&_block
+			min-height: 250px
+			display: flex
+			justify-content: space-around
+			&_text
+				max-width: 750px
+				&_descr
+					color: $main-color
+					font-weight: 700
+					font-size: 36px
+				&_txt
+					padding: 10px 0 0 30px
+			&_img
+				width: 200px
+		 
+		 
+
+.button 
+	width: 190px
+	height: 40px
+	border-radius: 5px
+	background-color: $second-color
+	border: none
+	color: #ffffff
+	font-size: 12px
+	font-weight: 500
+	text-transform: uppercase
+	margin: 0 auto
+	&_mini 
+		width: 150px
+		height: 40px
+		color: #ffffff
+		font-size: 14px
+		transition: 0.5s all
+		&:hover
+				color: $second-color
+				background-color: #ffffff
+				border: 1px solid $second-color
+	
+
+	
+.orange-hr 
+	width: 100%
+	height: 2px
+	background: linear-gradient(to right, #fff 0%, #FAD961 50%, #FFF 100%)
+	float: left
+.oval-title-2 
+	background: url(/img/oval.png) no-repeat
+	background-size: 120px
+	min-height: 100px
+	position: relative
+	&_title
+		color: $main-color
+		position: absolute
+		top: 40px
+		left: 60px
+		font-size: 25px
+
+.atricle_oval
+	&_descr
+		color: $main-color
+
+.orange
+	color: $second-color
+
+.btn-block
+	margin-top: 50px 
+	display: flex
+	justify-content: center
+ 
+	&_order 
+		color: #f36c21
+		white-space: normal
+		height: 40px
+		width: 250px
+		text-transform: uppercase
+		background: #fff
+		border-radius: 0
+		border-style: solid
+		border-width: 1px
+		border-image-source: linear-gradient(to top, #f36c21, #FAD961);
+		border-image-slice: 1
+		-webkit-transition: all 0.5s ease-out
+		-moz-transition: all 0.5s ease-out
+		-o-transition: all 0.5s ease-out
+		transition: all 0.5s ease-out
+
+
+
+.catalog 
+	padding-bottom: 20px
+	&_title
+		color: $main-color
+		font-size: 30px
+		text-align: center
+		font-weight: 700
+	&__content 
+		margin-top: 50px
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+	  
+	&-item 
+		width: 300px
+		min-height: 410px
+		border: 2px solid #e8e8e8
+		padding: 20px 20px 26px 20px
+		overflow: hidden
+		margin-bottom: 20px
+		&__img 
+			display: block
+			margin: 0 auto
+			max-width: 100%
+			height: 200px
+		
+		&__subtitle 
+			margin-top: 20px
+			color: #0d0d0d
+			font-size: 16px
+			font-weight: 700
+			text-align: center
+		
+		&__descr 
+			margin-top: 16px
+			color: #0d0d0d
+			font-size: 14px
+			font-weight: 300
+			text-align: center
+		
+		
+		
+		hr 
+			background-color: #e8e8e8
+			margin-top: 19px
+			margin-bottom: 21px
+			border-bottom: none
+		
+		&__footer 
+			display: flex
+			justify-content: space-between
+			align-items: center
+		
+	  
+		
+		&__wrapper 
+			display: flex
+			width: calc(200% + 60px)
+		
+		&__content 
+			width: 100%
+			margin-right: 0px
+			transition: 0.5s all
+
+
+
+.feed-form 
+    margin-top: 36px
+    display: flex
+    flex-direction: column
+    
+    input 
+        width: 300px
+        height: 50px
+        border-radius: 5px
+        background-color: #ffffff
+        margin-bottom: 15px
+        border: none
+        padding: 0 20px
+        color: #4b4b4b
+        font-size: 14px
+        font-weight: 300
+        &:nth-child(3)
+            margin-bottom: 20px
+        
+        &_m25 
+            margin-top: 25px
+
+.overlay 
+	display: none
+	position: fixed
+	width: 100%
+	height: 100%
+	top: 0
+	background-color: rgba(0,0,0, .56)
+	
+
+
+.modal 
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%)
+	background-color: #f2f2f2
+	max-height: 400px
+	max-width: 400px
+	padding: 38px 40px 40px 40px
+	&__close 
+		position: absolute
+		top: 5px
+		right: 5px
+		font-size: 40px
+		line-height: 21px
+		color: red
+		cursor: pointer
+
+	&__subtitle 
+		color: #0d0d0d
+		font-size: 18px
+		font-weight: 700
+		text-align: center
+	
+	&__descr 
+		color: #0d0d0d
+		font-size: 14px
+		font-weight: 500
+		text-align: center
+		margin-top: 11px
+	
+	&_mini 
+		max-height: 120px
+	
+	.error 
+		border: 1px solid red
+	
+	label.error
+		border: none
+		text-align: center
+		margin-bottom: 10px
+	
+.readmore-js-toggle
+		color: $second-color
+		&:hover
+			color: $second-color
+
+#consultation, #order, #thanks 
+	display: none
+		
+
+
+ 
+@media ( max-width: 1205px )
+	.subheader_contact
+		flex-direction: column
+		justify-content: center
+		align-items: flex-end
+		&_phone
+			line-height: 50px
+		&_btn
+			margin: 0
+	.catalog-item 
+   		 width: 250px
+
+@media ( max-width: 1005px )
+	.catalog__content
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		margin: 0
+	.catalog-item 
+		margin-top: 25px
+		width: 525px
+			
+	.container
+		width: 800px
+
+ 
+	.articles .article_block_text_descr	 
+		font-size: 23px
+	.articles .article_block_text_txt
+		font-size: 15px
+	.articles .article_block_img		
+		width: 110px
+			   
+	.oval-title-2_title
+		font-size: 17px
+	.atricle_oval_descr
+		font-size: 14px
+
+
+
+@media ( max-width: 762px )
+	.atricle_oval_descr 
+		font-size: 12px
+	.articles .article_block_text_descr	 
+		font-size: 17px
+	.articles .article_block_text_txt
+		font-size: 14px
+	.articles .article_block_img
+		display: none
+	.articles .article_block
+		min-height: 210px
+	.subheader 
+		img
+			margin: 0 auto
+			width: 50%
+		&_contact
+			align-items: center
+			flex-direction: row
+			justify-content: space-around
+		&_menu
+			margin-top: 20px 
+			ul 
+				li
+					line-height: 10px
+
+	.slider
+			margin-top: 30px
+
+	.catalog-item
+		width: 350px	
+
+
+@media ( max-width: 581px )
+ 
+	.catalog-item 
+		width: 385px
+	.orange-hr
+		display: none
+	.container
+		width: 375px
+	.slider h1 
+		font-size: 14px
+	.catalog_title
+		font-size: 16px
+	.catalog
+		margin-top: 20px
+	.catalog-item
+		width: 280px
+	.btn-block
+		margin-bottom: 20px
+	.article_oval
+		margin-top: 20px
+	.modal
+		width: 300px
+		padding: 10px 15px 10px 15px
+	.modal__subtitle
+		font-size: 14px
+	.feed-form input
+		width: 270px	 
+	.orange 
+		font-size: 11px
+
+	
+	 
+
+@media ( max-width: 345px )
+	.subheader_contact_phone
+		font-size: 11px
+	.container
+		width: 300px
+	.subheader_contact_btn
+		width: 135px
