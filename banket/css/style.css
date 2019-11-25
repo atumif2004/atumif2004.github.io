@@ -369,7 +369,9 @@ padding-bottom:15px;
 
 .main{
 	padding-top:103px;
-	background-image:url(../img/bg2.jpg);
+ 
+	background-image:url(../images/banketback.jpg);
+	
 	background-position:center center;
 	background-size:cover;
 	min-height:510px;
