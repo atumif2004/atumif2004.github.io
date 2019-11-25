@@ -53,7 +53,7 @@ if(empty($phone)) {
 	//$email2= "test@gmail.com" . ", " ;  
 	//$email2 .= "test1@gmail.com";
 	
-$email2="test@gmail.com"; // --------------------------------------------- почта, куда придёт заявка с сайта
+$email2="roman-bekenev@yandex.ru"; // --------------------------------------------- почта, куда придёт заявка с сайта
 $headers  =  'MIME-Version: 1.0' . "\r\n";
 	$headers .=  'Content-type: text/html; charset=UTF-8' . "\r\n";
 	$headers .=  'To: <'.$email2.'>, '."\r\n";
