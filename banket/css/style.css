@@ -410,7 +410,7 @@ a.morestyle, .likemore{
 	height:58px;
 	line-height:58px;
 	text-align:center;
-	background-color:#d2ac94;
+	background-color:#47ac3b;
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -419,12 +419,12 @@ a.morestyle, .likemore{
 	float:right;
 	font-family: "HelveticaBold";
 	margin-top:30px;
-	color:#323232;
+	color:#ffffff;
 	border-radius:5px;
 }
 
 a.morestyle:hover, .likemore:hover {
-	background-color:#fff;
+	background-color:#36872c;
 }
 .banket.revers{
 	padding-left:85px;
@@ -723,6 +723,7 @@ body .style1.orderbtn:hover{
 }
 
 .sec5sub2{
+	margin-top: 20px;
 	text-align:center;
 	font-size:24px;
 	padding-bottom:45px;
