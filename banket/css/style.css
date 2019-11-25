@@ -283,7 +283,7 @@ padding-bottom:15px;
 /** header **/
 
 .header{
-	background:url(../img/bg.jpg) top left;
+	background:url(../images/bg2.jpg) top left;
 	padding-top:30px;
 	color:#fff;
 	letter-spacing:1.2px;
@@ -369,9 +369,9 @@ padding-bottom:15px;
 
 .main{
 	padding-top:103px;
- 
+
 	background-image:url(../images/banketback.jpg);
-	
+
 	background-position:center center;
 	background-size:cover;
 	min-height:510px;
@@ -475,7 +475,7 @@ html body .placecol{
 		text-align:center;
 		color:#fff;
 		padding-top:60px;
-		background:url(../img/bg.jpg) top left;
+		background:url(../images/bg2.jpg) top left;
 	}
 
 	
