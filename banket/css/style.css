@@ -1497,7 +1497,7 @@ margin:0;
 		text-align:center;
 		color:#fff;
 		background:url(../img/2020.jpg) no-repeat center center;
-		height:506px;
+		height:906px;
 		width:100%;
 		font-family:"HelveticaMedium";
 		background-size:cover;
@@ -1541,7 +1541,7 @@ margin:0;
 .likemore.st3{
 	cursor:pointer;
 	background-color:#fff;
-	margin:5% auto;
+	margin:2% auto;
 	float:none;
 	color:#000;
 	font-size:18px;
@@ -1552,6 +1552,10 @@ margin:0;
 .likemore.st3:hover{
 	color:#fff;
 	background-color:#56ba40;
+}
+
+.pnh {
+	height: 390px;
 }
 
 /*sec2018 end*/
