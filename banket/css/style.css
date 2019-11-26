@@ -662,7 +662,7 @@ html body .placecol{
 
 .likemore.st2, .style1.orderbtn{
 	cursor:pointer;
-	background-color:#3b2e26;
+	background-color:#8fe15c;
 	margin:0 auto;
 	float:none;
 	color:#fff;
@@ -865,7 +865,7 @@ html body .sec6 table tr td strong{
 }
 
 .menuitem.active, .menuitem:hover  span{
-	background-color:#d2ac94;
+	background-color:#78d461;
 }
 
 .menuitem span{
@@ -1144,11 +1144,11 @@ html body .sec6 table tr td strong{
 }
 
 .sec12 .likemore.st2{
-	background-color:#d2ac94;
+	background-color:#53cc51;
 	text-transform:uppercase;
 	width:100%;
 	margin-top:15px;
-	color:#000;
+	color:#fff;
 }
 
 .sec12xis{
@@ -1172,7 +1172,8 @@ html body .sec6 table tr td strong{
 }
 
 .sec12head{
-	background-color:#d2ac94;
+	background-color:#53cc51;
+	color: #fff;
 	padding-top:15px;
 	padding-bottom:15px;
 	font-family: "HelveticaMedium";
@@ -1509,13 +1510,13 @@ margin:0;
 }
 
 .likeh2 span{
-	color:#d2ac94;
+	color:#56ba40;
 }
 
 .comin{
 	font-size:32px;
 	font-family:"HelveticaLight";
-	color:#d2ac94;
+	color:#56ba40;
 }
 
 .plate{
@@ -1550,7 +1551,7 @@ margin:0;
 
 .likemore.st3:hover{
 	color:#fff;
-	background-color:#d2ac94;
+	background-color:#56ba40;
 }
 
 /*sec2018 end*/
