@@ -1,21 +1,19 @@
 <?php
  /* Здесь проверяется существование переменных */
-  if (isset($_POST['subject'])) {$subject = $_POST['subject'];} 
-  if (isset($_POST['name'])) {$name = $_POST['name'];}  
+
   if (isset($_POST['phone'])) {$phone = $_POST['phone'];}  
-  if (isset($_POST['email'])) {$email = $_POST['email'];} 
+
  
 
 /* Сюда впишите свою эл. почту */
  $address = "atumif@yandex.ru";
 
 /* А здесь прописывается текст сообщения, \n - перенос строки */
- $mes = "Тема: Заявка.\nФорма отправки: $subject\nИмя: $name\nТелефон: $phone\nE-mail: $email";
+$mes = "Телефон: $phone";
 
 /* А эта функция как раз занимается отправкой письма на указанный вами email */
 $sub='Заказ c лендинга Изготовление шкафов-купе.'; //сабж
-$email='Заказ <landing>'; // от кого
- $send = mail ($address,$sub,$mes,"Content-type:text/plain; charset = utf-8\r\nFrom:$email");
+ $send = mail ($address,$sub,$mes,"Content-type:text/plain; charset = utf-8\r\n");
 
 ini_set('short_open_tag', 'On');
 ?>

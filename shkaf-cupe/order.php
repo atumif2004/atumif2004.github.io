@@ -1,14 +1,8 @@
 <?php
  /* Здесь проверяется существование переменных */
-  if (isset($_POST['subject'])) {$subject = $_POST['subject'];} 
-  if (isset($_POST['name'])) {$name = $_POST['name'];}  
+ 
   if (isset($_POST['phone'])) {$phone = $_POST['phone'];}  
-  if (isset($_POST['email'])) {$email = $_POST['email'];} 
-  if (isset($_POST['type'])) {$type = $_POST['type'];} 
-  if (isset($_POST['width'])) {$width = $_POST['width'];} 
-  if (isset($_POST['height'])) {$height = $_POST['height'];}    
-  if (isset($_POST['depth'])) {$depth = $_POST['depth'];} 
-  if (isset($_POST['decor'])) {$decor = $_POST['decor'];}   
+  
   
   
 
@@ -16,12 +10,12 @@
  $address = "atumif@yandex.ru";
 
 /* А здесь прописывается текст сообщения, \n - перенос строки */
- $mes = "Тема: Заявка.\nФорма отправки: $subject\nИмя: $name\nТелефон: $phone\nE-mail: $email\nType: $type\nWidth: $width\nHeight: $height\nDepth: $depth\nDecor: $decor";
+ $mes = "Телефон: $phone";
 
 /* А эта функция как раз занимается отправкой письма на указанный вами email */
 $sub='Заказ c лендинга Изготовление шкафов-купе.'; //сабж
-$email='Заказ <landing>'; // от кого
- $send = mail ($address,$sub,$mes,"Content-type:text/plain; charset = utf-8\r\nFrom:$email");
+ 
+ $send = mail ($address,$sub,$mes,"Content-type:text/plain; charset = utf-8\r\n");
 
 ini_set('short_open_tag', 'On');
 ?>

@@ -726,7 +726,7 @@ header {
 
 .examples-heading:before {
 	content: "";
-	width: 40%;
+	width: 35%;
 	height: 1px;
 	background-color: #cfcac4;
 	position: absolute;
@@ -736,7 +736,7 @@ header {
 
 .examples-heading:after {
 	content: "";
-	width: 40%;
+	width: 35%;
 	height: 1px;
 	background-color: #cfcac4;
 	position: absolute;
@@ -1803,7 +1803,10 @@ span.val {
 	.count-top {
 		display: none;
 	}
-
+	
+	.header-nav ul li:first-child {
+		display: none;
+	}
 
 
 }
@@ -1817,7 +1820,7 @@ span.val {
 		margin: 0 0 20px 0;
 		font-size: 13px;
 	}
-
+	 
 
 	/*how*/
 	.how-bg {

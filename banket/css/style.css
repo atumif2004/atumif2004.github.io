@@ -942,7 +942,7 @@ html body .sec6 table tr td strong{
 	line-height:40px;
 	font-family: "HelveticaBold";
 	color:#fff;
-	background-color:#000;
+	background-color:#7abf18;;
 	border-radius:7px;
 	text-transform:uppercase;
 	margin:30px auto 50px;
@@ -951,7 +951,7 @@ html body .sec6 table tr td strong{
 }
 
 .showmore:hover{
-	background-color:#967159;
+	background-color:#6ea223;
 }
 
 .noshow{
@@ -1433,7 +1433,7 @@ border-radius:50px;
 	width:100%;
 }
 
-.modal {
+/* .modal {
   text-align: center;
 }
 .modal.fade .modal-dialog {
@@ -1447,9 +1447,9 @@ border-radius:50px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-}
+} */
 
-.modal.fade.in .modal-dialog {
+/* .modal.fade.in .modal-dialog {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
@@ -1488,7 +1488,7 @@ margin:0;
 
 .modal-body.forcontact{
 	padding:30px;
-}
+} */
 
 /*sec2018*/
 
@@ -1557,6 +1557,177 @@ margin:0;
 .pnh {
 	height: 390px;
 }
+
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 111115;
+    background-color: rgba(0, 0, 0, .56)
+}
+
+.button_main {
+
+	background-color: #7abf18;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 17px;
+    text-transform: capitalize;
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    display: inline-block;
+    padding: 10px 30px;
+    line-height: 27px;
+    border-radius: 22px;
+    border: 1px solid transparent;
+    font-weight: 400;
+}
+
+.button_center {
+	margin-left: 40%;
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    min-height: 520px;
+    min-width: 300px;
+    border-radius: 10px;
+    padding: 38px 40px 40px 40px
+}
+
+.modal__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    line-height: 21px;
+    color: #7abf18;
+    cursor: pointer;
+}
+
+.modal__subtitle {
+    color: #0d0d0d;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center
+}
+
+.modal__descr {
+    color: #0d0d0d;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 11px
+}
+
+.modal_mini {
+    min-height: 64px
+}
+
+.modal .error {
+    border: 1px solid red
+}
+
+.modal label.error {
+    border: none;
+    text-align: center;
+    margin-bottom: 10px
+}
+.form-text {
+    height: 115px;
+    padding: 10px 5px 5px 16px;
+    background-color: #f2f2f2;
+    border:none;
+    border-radius: 5px;
+    resize: none;
+}
+
+ 
+.button-modal {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #7abf18;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+}
+
+.button_mini {
+    margin-top: 20px;
+    width: 161px;
+    height: 50px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.feed-form {
+ 
+    display: flex;
+    flex-direction: column
+}
+
+
+
+.feed-form input {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin-bottom: 15px;
+    border: none;
+    padding: 0 20px;
+    color: #4b4b4b;
+    font-size: 14px;
+    font-weight: 300
+}
+input[name="email"] {
+    width: 100%;
+}
+
+.feed-form input:nth-child(3) {
+    margin-bottom: 20px
+}
+
+.modal-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.modal-box-decr {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 60%;
+}
+
+.modal-form {
+    display: flex;
+    
+}
+
+#consultation,
+#order,
+#thanks {
+    display: none
+}
+
+
+
+
 
 /*sec2018 end*/
 
@@ -2084,7 +2255,7 @@ margin:0;
 
 .mainmenu .menubtn{
 	display:block;
-	background:#3b2e26;
+	background: #7cb037;
 }
 .menubox{
 	padding:0px;
@@ -2637,6 +2808,14 @@ a.morestyle, .likemore{
 	margin:10% auto;
 }
 
+.modal__descr {
+
+	font-size: 12px;
+}
+
+.modal__subtitle {
+	font-size: 15px;
+}
 /** header **/
 
 
